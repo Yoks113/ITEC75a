@@ -1,0 +1,149 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #333333, #666666);
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .gray-stripes {
+    width: 20px;
+    height: 40px;
+    background: linear-gradient(to right, #888888, #aaaaaa);
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.homepage-btn {
+    background-color: #aaaaaa;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.homepage-btn:hover {
+    background-color: #888888;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #444444;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #888888;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333333;
+}
+
+table, th, td {
+    border: 1px solid #888888;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #555555;
+}
+
+tr:nth-child(even) {
+    background-color: #444444;
+}
+
+tr:hover {
+    background-color: #555555;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9rem;
+}
+
+.print-btn {
+
+    background-color: #4CAF50;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+.print-btn:hover {
+
+    background-color: #3e8e41;
+
+}
+
+.center-btn {
+
+    text-align: center;
+
+    margin: 20px 0;
+
+}
